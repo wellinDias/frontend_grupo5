@@ -66,6 +66,7 @@
   height: auto;
   border-radius: 50%;
   box-shadow: rgb(0, 0, 0) 3px 3px 3px 3px;
+  
 }
 
 .custom-navbar {
@@ -102,6 +103,20 @@
 
 .custom-navbar .navbar-brand:hover {
   color: var(--cor-fonte);
+}
+.custom-navbar .navbar-brand {
+  font-family: 'Press Start 2P', cursive;
+  color: #25ebd7;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  text-shadow: 4px 3px 6px var(--cor-ativo);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-left: 24px;
+  margin-right: 16px;
+  padding-bottom: 5px;
+  padding-top: 5px
 }
 @media (max-width: 650px) {
 
