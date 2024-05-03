@@ -60,11 +60,11 @@
   flex-direction: column;
 }
 .sectionTittle {
-  background-color: #46368b;
-  font-size: 26px;
+  margin-top: 20px;
+  background-color: #4362ce;
+  font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  padding-top: 20px;
 }
 .sectionDescription {
   background-color: #363333;
@@ -72,7 +72,7 @@
   color: #ffffff;
 }
 .gridContainer {
-  background-color: #363333;
+  background: linear-gradient(to top, #038789, #b1006a) !important;
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-areas: "mainContent sidebarContent";
@@ -140,7 +140,7 @@
 }
 
 .sidebarContent {
-  background-color: #635f5f;
+  background-color: #363333;
   color: white;
   padding: 16px;
   display: flex;
@@ -168,9 +168,6 @@
 .sidebarCardImg {
   width: 100%;
   border-radius: 10px;
-}
-.footer {
-  margin-top: 1.5rem;
 }
 
 .custom-footer {
