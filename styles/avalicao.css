@@ -53,6 +53,16 @@
 .custom-navbar .navbar-brand:hover {
   color: var(--cor-fonte);
 }
+.custom-navbar .navbar-brand {
+  font-family: "Press Start 2P", cursive;
+}
+.custom-navbar .navbar-brand {
+  color: #25ebd7;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  text-shadow: 4px 3px 6px var(--cor-ativo);
+  font-family: "Press Start 2P", cursive;
+}
 
 .container {
   min-height: 100vh;
