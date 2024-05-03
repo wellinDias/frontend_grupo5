@@ -10,16 +10,19 @@
   flex-direction: column;
 }
 .sectionTittle {
+  background-color: #363333;
   font-size: 26px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding-top: 20px;
 }
 .sectionDescription {
+  background-color: #363333;
   text-align: center;
-  color: #383838;
+  color: #ffffff;
 }
 .gridContainer {
+  background-color: #363333;
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-areas: "mainContent sidebarContent";
@@ -51,6 +54,7 @@
   border-color: black;
 }
 .mainCategoryCardTitle {
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   padding: 6px;
 }
@@ -69,23 +73,24 @@
   display: inline-block;
   font-size: 35px;
   cursor: pointer;
-  background-color: white;
+  background-color: #363333;
 }
 .p-avaliacao {
   text-align: center;
   margin-top: 20px;
 }
 .btn-avaliacao {
-  margin-left: 37%;
+  width: 200px;
+  margin-left: 15%;
   margin-top: 20px;
   border: none;
-  background: blue;
+  background: black;
   border-radius: 3px;
   color: white;
 }
 
 .sidebarContent {
-  background-color: #383838;
+  background-color: #635f5f;
   color: white;
   padding: 16px;
   display: flex;
@@ -113,4 +118,18 @@
 .sidebarCardImg {
   width: 100%;
   border-radius: 10px;
+}
+.footer {
+  margin-top: 1rem;
+}
+
+.custom-footer {
+  background-color: var(--cor-bar);
+}
+
+.footer-text {
+  margin-left: 1.5rem;
+  color: var(--cor-fonte);
+  font-weight: bold;
+  font-size: medium;
 }
