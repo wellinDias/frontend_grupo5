@@ -3,12 +3,18 @@
   width: 100%;
   height: 100%;
 
-  background-color: var(--cor-bar)
+  background-color: var(--cor-bar);
 }
 
 .navbar-brand>img {
-  width: 4.5rem;
+  width: 5.5rem;
   height: auto;
+  border-radius: 50%;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0.1px var(--cor-ativo);
+
 }
 
 .custom-navbar {
@@ -19,12 +25,16 @@
   color: var(--cor-fonte);
   font-weight: bold;
   font-size: larger;
+  text-shadow: 2px 1px 8px black;
 }
 
+
 .custom-navbar .navbar-brand {
-  color: var(--cor-fonte);
+  color: #25ebd7;
   font-weight: bold;
   margin-left: 1.5rem;
+  text-shadow: 4px 3px 6px var(--cor-ativo);
+  font-family:'Press Start 2P', cursive;
 }
 
 .custom-navbar .navbar-nav .nav-link.active {
@@ -54,11 +64,12 @@
 
 #lead-top {
   color: var(--cor-fonte);
-  background-color: var(--cor-bar-vermelho);
+  background-color: var(--cor-bar-azul);
   border-radius: 0.3rem;
   font-weight: 400;
   padding: 0.2rem;
   margin: 1.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .main {
@@ -72,6 +83,10 @@
 
 .custom-card {
   background-color: var(--cor-card) !important;
+}
+
+.card-text{
+  min-height: 320px;
 }
 
 .card-img-top{
@@ -93,6 +108,7 @@
   font-weight: 400;
   padding: 0.2rem;
   margin: 1.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .custom-card-noticia {
@@ -102,12 +118,15 @@
 
 #noticia-img{
   max-width: 300px;
-  height: autopx;
+  height: auto;
 }
 
 /* FOOTER */
 .footer{
+  width: 100%;
   margin-top: 1.5rem;
+  left: 0;
+  bottom: 0;
 }
 
 .custom-footer {
@@ -122,5 +141,38 @@
 }
 
 @media (max-width: 640px) {
+  .custom-navbar .navbar-brand {
+    font-size: 10px;
+  }
+  .custom-navbar .navbar-nav .nav-link {
+    font-size: smaller;
+  }
+  .custom-navbar .navbar-nav .nav-link.active {
+    font-size: smaller;
+  }
+}
 
+@media (max-width: 900px) {
+  .custom-navbar .navbar-brand {
+    font-size: 20px;
+  }
+  .custom-navbar .navbar-nav .nav-link {
+    font-size: small;
+  }
+  .custom-navbar .navbar-nav .nav-link.active {
+    font-size: small;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-navbar .navbar-brand {
+    font-size: 30px;
+  }
+
+  .custom-navbar .navbar-nav .nav-link {
+    font-size: larger;
+  }
+  .custom-navbar .navbar-nav .nav-link.active {
+    font-size: larger;
+  }
 }

@@ -1,22 +1,26 @@
 :root {
-  --cor-background: white;
-  --cor-bar: #363333;
-  --cor-fonte: #ffffff;
-  --cor-ativo: #4362ce;
-  --cor-bar-vermelho: #e42b2b;
-  --cor-bar-azul: #4362ce;
-  --cor-card: #d9d9d9;
-}
+    --cor-background: white;
+    --cor-bar: #363333;
+    --cor-fonte: #ffffff;
+    --cor-ativo: #4362CE;
+    --cor-bar-vermelho: #E42B2B;
+    --cor-bar-azul: #4362CE;
+    --cor-card: #D9D9D9;
+    --cor-brand-1: #B1006A;
+    --cor-brand-2: #038789;
+ }
 
 body {
-  width: 100%;
-  min-height: 100vh;
-
-  color-scheme: dark;
-  background-color: var(--cor-background);
-
-  color: white;
-  font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+ 
+    color-scheme: dark;
+    background: linear-gradient(to top, #038789, #B1006A) !important;
+ 
+    color: white;
+    font-family: "Quicksand", sans-serif;
 }
 
 .container {
